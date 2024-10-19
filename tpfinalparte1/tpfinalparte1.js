@@ -113,13 +113,11 @@ function mouseClicked() {
     let flechaWidth = 50;
     let flechaHeight = 50;
 
-    // Comprobar si se ha hecho clic en la flecha
     if (mouseX > flechaX && mouseX < flechaX + flechaWidth &&
         mouseY > flechaY && mouseY < flechaY + flechaHeight) {
       estado++; // Avanza al siguiente estado
-      // Evita que el estado exceda el número total de páginas o imágenes
       if (estado > 27) {
-        estado = 0; // Opcional: vuelve al estado inicial si se excede
+        estado = 0;
       }
     }
   }
