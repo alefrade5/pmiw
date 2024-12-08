@@ -1,5 +1,4 @@
 //Alessandro Frade 
-//Legajo: 94736/1
 //Comision 2
 //Soul Eater 
 //Link: https://www.youtube.com/watch?v=9GHJJBGHF9
